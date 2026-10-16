@@ -1,0 +1,1 @@
+<?php http_response_code(404);page_header('Page not found');page_intro('404 · WRONG TURN','This page is off the grid.','Let’s get you back to the right connection.'); ?><div class="container section compact"><a class="button primary" href="/">Back to home <?=icon('arrow')?></a></div><?php page_footer(); ?>

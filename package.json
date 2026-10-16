@@ -1,0 +1,1 @@
+{"private":true,"scripts":{"css":"tailwindcss -i ./assets/input.css -o ./assets/tailwind.css --minify"},"devDependencies":{"@playwright/test":"^1.56.0","@tailwindcss/cli":"^4.1.0","lighthouse":"^13.5.0","tailwindcss":"^4.1.0","terser":"^5.51.2"}}

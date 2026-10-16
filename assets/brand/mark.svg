@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-labelledby="brand-title brand-desc">
+  <title id="brand-title">MI Tech Wireless mark</title>
+  <desc id="brand-desc">Red M symbol made from two diagonal capsules and two circular dots. Transparent square canvas.</desc>
+  <g fill="#FF0000" transform="translate(16 84.748387) scale(0.9290322581)">
+    <path d="M45.365 48.432L113.365 148.432A31 31 0 0 0 164.635 113.568L96.635 13.568A31 31 0 0 0 45.365 48.432Z"/>
+    <path d="M146.365 48.432L214.365 148.432A31 31 0 0 0 265.635 113.568L197.635 13.568A31 31 0 0 0 146.365 48.432Z"/>
+    <path d="M0 131a31 31 0 1 0 62 0a31 31 0 1 0 -62 0Z"/>
+    <path d="M248 31a31 31 0 1 0 62 0a31 31 0 1 0 -62 0Z"/>
+  </g>
+</svg>

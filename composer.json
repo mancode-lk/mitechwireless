@@ -1,0 +1,12 @@
+{
+  "name": "mitechwireless/prepaid-store",
+  "description": "MI Tech Wireless prepaid order and fulfillment store",
+  "type": "project",
+  "require": {
+    "php": ">=8.1",
+    "giggsey/libphonenumber-for-php": "^9.0",
+    "phpmailer/phpmailer": "^7.0",
+    "stripe/stripe-php": "^19.0"
+  },
+  "config": {"platform": {"php": "8.2.34"}, "allow-plugins": {}, "sort-packages": true}
+}

@@ -1,0 +1,2 @@
+const fs=require('node:fs');const path=require('node:path');const {minify}=require('terser');
+(async()=>{for(const name of ['site','checkout','request-checkout']){const file=path.join(__dirname,'..','assets',name);const result=await minify(fs.readFileSync(file+'.js','utf8'),{compress:true,mangle:true,format:{comments:false}});fs.writeFileSync(file+'.min.js',result.code+'\n');}console.log('JavaScript assets minified');})();

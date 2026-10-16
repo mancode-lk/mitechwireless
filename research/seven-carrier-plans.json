@@ -1,0 +1,233 @@
+{
+  "checked_date": "2026-10-15",
+  "carriers": [
+    {
+      "slug": "simple-mobile",
+      "name": "Simple Mobile",
+      "source_url": "https://www.simplemobile.com/serviceplan?deviceType=smartphone",
+      "description": "Two sourced published monthly plan references. Purchase verification remains unresolved: current storefront and official Broadband Facts were blocked or empty. These are not confirmed-purchasable records; hotspot quotas and tax/fee treatment remain unverified.",
+      "plans": [
+        {
+          "name": "Unlimited World",
+          "price_cents": 5000,
+          "data_allowance": "Unlimited data",
+          "talk": "Unlimited nationwide",
+          "texts": "Unlimited nationwide SMS/MMS",
+          "validity_days": 30,
+          "description": "Published $50 reference; no AutoPay reduction applied. Current purchasability unverified. Congestion may slow data; hotspot allowance and taxes/fees unverified. Expanded international calling requires Verizon-network activation.",
+          "source_url": "https://www.simplemobile.com/serviceplan?deviceType=smartphone"
+        },
+        {
+          "name": "Unlimited World+",
+          "price_cents": 6000,
+          "data_allowance": "Unlimited data with 5G Ultra Wideband access",
+          "talk": "Unlimited nationwide",
+          "texts": "Unlimited nationwide SMS/MMS",
+          "validity_days": 30,
+          "description": "Published $60 reference; no AutoPay reduction applied. Current purchasability unverified. Congestion may slow data; hotspot allowance and taxes/fees unverified. Ultra Wideband requires compatible device/coverage.",
+          "source_url": "https://www.simplemobile.com/serviceplan?deviceType=smartphone"
+        }
+      ]
+    },
+    {
+      "slug": "t-mobile",
+      "name": "T-Mobile",
+      "source_url": "https://prepaid.t-mobile.com/connect/phone-plans",
+      "description": "Connect by T-Mobile single-line plans. Regular prices; taxes/fees extra. New and existing customers eligible; no AutoPay discount.",
+      "plans": [
+        {
+          "name": "Connect 5GB",
+          "price_cents": 1500,
+          "data_allowance": "5GB high-speed data",
+          "talk": "Unlimited nationwide",
+          "texts": "Unlimited nationwide SMS/MMS",
+          "validity_days": 30,
+          "description": "Hotspot shares 5GB; on-network data stops at the cap. Hotspot has lower priority than phone data. Taxes/fees extra; domestic use; compatible device required.",
+          "source_url": "https://prepaid.t-mobile.com/connect/phone-plans"
+        },
+        {
+          "name": "Connect 8GB",
+          "price_cents": 2500,
+          "data_allowance": "8GB high-speed data",
+          "talk": "Unlimited nationwide",
+          "texts": "Unlimited nationwide SMS/MMS",
+          "validity_days": 30,
+          "description": "Hotspot shares 8GB; on-network data stops at the cap. Hotspot has lower priority than phone data. Taxes/fees extra; domestic use; compatible device required.",
+          "source_url": "https://prepaid.t-mobile.com/connect/phone-plans"
+        },
+        {
+          "name": "Connect 12GB",
+          "price_cents": 3500,
+          "data_allowance": "12GB high-speed data",
+          "talk": "Unlimited nationwide",
+          "texts": "Unlimited nationwide SMS/MMS",
+          "validity_days": 30,
+          "description": "Hotspot shares 12GB; on-network data stops at the cap. Hotspot has lower priority than phone data. Taxes/fees extra; domestic use; compatible device required.",
+          "source_url": "https://prepaid.t-mobile.com/connect/phone-plans"
+        }
+      ]
+    },
+    {
+      "slug": "lyca-mobile",
+      "name": "Lyca Mobile",
+      "source_url": "https://www.lycamobile.us/en/plans/best-prepaid-phone-plans/",
+      "description": "Single-line 30-day plans at regular prices before introductory auto-renewal discounts. A 5% website regulatory recovery fee is extra. Unlocked compatible phone required; international destination restrictions apply.",
+      "plans": [
+        {
+          "name": "$19 Unlimited International - 5GB",
+          "price_cents": 1900,
+          "data_allowance": "5GB at up to 5G speeds, then reduced speeds",
+          "talk": "Unlimited nationwide",
+          "texts": "Unlimited nationwide",
+          "validity_days": 30,
+          "description": "Hotspot supported; separate GB quota not stated. Congestion may slow data. 5% website recovery fee extra; $10 new-line auto-renewal promotion excluded. Unlocked compatible phone required.",
+          "source_url": "https://www.lycamobile.us/en/plan/19-international-plan-2/"
+        },
+        {
+          "name": "$23 Unlimited International - 8GB",
+          "price_cents": 2300,
+          "data_allowance": "8GB at up to 5G speeds, then reduced speeds",
+          "talk": "Unlimited nationwide",
+          "texts": "Unlimited nationwide",
+          "validity_days": 30,
+          "description": "8GB high-speed hotspot; not represented as extra phone data. Congestion may slow data. 5% website recovery fee extra; $15 auto-renewal promotion excluded. Unlocked compatible phone required.",
+          "source_url": "https://www.lycamobile.us/en/plan/23-unlimited-international-plan/"
+        },
+        {
+          "name": "$29 Unlimited International - 15GB",
+          "price_cents": 2900,
+          "data_allowance": "15GB at up to 5G speeds, then reduced speeds",
+          "talk": "Unlimited nationwide",
+          "texts": "Unlimited nationwide",
+          "validity_days": 30,
+          "description": "10GB high-speed hotspot; not represented as extra phone data. Congestion may slow data. 5% website recovery fee extra; quoted $29 is non-introductory, with no AutoPay condition stated. Unlocked compatible phone required.",
+          "source_url": "https://www.lycamobile.us/en/plan/29-unlimited-international-plan/"
+        }
+      ]
+    },
+    {
+      "slug": "ultra-mobile",
+      "name": "Ultra Mobile",
+      "source_url": "https://www.ultramobile.com/plans/",
+      "description": "Regular one-month single-line prices, corroborated by official Broadband Facts CSV. Taxes/fees extra; unlocked compatible phone required. Multi-month sale prices excluded.",
+      "plans": [
+        {
+          "name": "4GB - 1 Month",
+          "price_cents": 1900,
+          "data_allowance": "4GB high-speed data",
+          "talk": "Unlimited nationwide",
+          "texts": "Unlimited nationwide SMS/MMS",
+          "validity_days": 30,
+          "description": "Hotspot shares plan data. After the allowance, speeds may fall to 2G or data may stop under plan terms. Congestion may reduce speeds; taxes/fees extra.",
+          "source_url": "https://www.ultramobile.com/product/4gb-prepaid-plan/?attribute_months=1-month-plan"
+        },
+        {
+          "name": "12GB - 1 Month",
+          "price_cents": 2900,
+          "data_allowance": "12GB high-speed data",
+          "talk": "Unlimited nationwide",
+          "texts": "Unlimited nationwide SMS/MMS",
+          "validity_days": 30,
+          "description": "Hotspot shares plan data. After the allowance, speeds may fall to 2G or data may stop under plan terms. Congestion may reduce speeds; taxes/fees extra.",
+          "source_url": "https://www.ultramobile.com/plans/"
+        },
+        {
+          "name": "24GB - 1 Month",
+          "price_cents": 3900,
+          "data_allowance": "24GB high-speed data",
+          "talk": "Unlimited nationwide",
+          "texts": "Unlimited nationwide SMS/MMS",
+          "validity_days": 30,
+          "description": "Hotspot shares plan data. After the allowance, speeds may fall to 2G or data may stop under plan terms. Congestion may reduce speeds; taxes/fees extra.",
+          "source_url": "https://www.ultramobile.com/product/24gb-prepaid-plan/?attribute_months=1-month-plan"
+        }
+      ]
+    },
+    {
+      "slug": "h2o-wireless",
+      "name": "H2O Wireless",
+      "source_url": "https://www.h2owireless.com/plan/monthly",
+      "description": "Selected one-month single-line plans. Base prices exclude the 10% AutoPay discount, provider charges and location-dependent taxes; compatible phone required.",
+      "plans": [
+        {
+          "name": "$20 Monthly 10GB",
+          "price_cents": 2000,
+          "data_allowance": "10GB high-speed data, then up to 256Kbps",
+          "talk": "Unlimited nationwide",
+          "texts": "Unlimited nationwide SMS/MMS",
+          "validity_days": 30,
+          "description": "2GB hotspot. Data slows after 10GB; network congestion may affect speeds. Taxes, federal and recovery fees extra; no introductory or multi-month discount.",
+          "source_url": "https://www.h2owireless.com/plan/monthly"
+        },
+        {
+          "name": "$30 Monthly Unlimited",
+          "price_cents": 3000,
+          "data_allowance": "Unlimited; 30GB high-speed, then up to 256Kbps",
+          "talk": "Unlimited nationwide",
+          "texts": "Unlimited nationwide SMS/MMS",
+          "validity_days": 30,
+          "description": "5GB hotspot. Congestion can reduce priority; speeds reduced after 30GB. Taxes, federal and recovery fees extra; no introductory or multi-month discount.",
+          "source_url": "https://www.h2owireless.com/plan/monthly"
+        },
+        {
+          "name": "$40 Monthly Unlimited",
+          "price_cents": 4000,
+          "data_allowance": "Unlimited; 40GB high-speed, then up to 256Kbps",
+          "talk": "Unlimited nationwide",
+          "texts": "Unlimited nationwide SMS/MMS",
+          "validity_days": 30,
+          "description": "10GB hotspot. Congestion can reduce priority; speeds reduced after 40GB. Taxes, federal and recovery fees extra; no introductory or multi-month discount.",
+          "source_url": "https://www.h2owireless.com/plan/monthly"
+        },
+        {
+          "name": "Unlimited XL $60 Monthly",
+          "price_cents": 6000,
+          "data_allowance": "Unlimited; 60GB high-speed, then up to 256Kbps",
+          "talk": "Unlimited nationwide",
+          "texts": "Unlimited nationwide SMS/MMS",
+          "validity_days": 30,
+          "description": "20GB hotspot. Congestion can reduce priority; speeds reduced after 60GB. Taxes, federal and recovery fees extra; no introductory or multi-month discount.",
+          "source_url": "https://www.h2owireless.com/plan/monthly"
+        }
+      ]
+    },
+    {
+      "slug": "verizon",
+      "name": "Verizon",
+      "source_url": "https://www.verizon.com/plans/prepaid/",
+      "description": "Single-line Verizon Prepaid base prices before Auto Pay or tenure-based loyalty discounts. Additional taxes/fees may apply; calendar-month billing.",
+      "plans": [
+        {
+          "name": "Prepaid 15GB",
+          "price_cents": 4500,
+          "data_allowance": "15GB high-speed data, then 2G speeds",
+          "talk": "Unlimited nationwide",
+          "texts": "Unlimited nationwide SMS/MMS",
+          "validity_days": 0,
+          "description": "Hotspot shares 15GB. Congestion may slow data; 480p video. Taxes/fees extra; compatible phone required. $45 before Auto Pay or loyalty discounts.",
+          "source_url": "https://www.verizon.com/plans/prepaid/"
+        },
+        {
+          "name": "Prepaid Unlimited",
+          "price_cents": 6000,
+          "data_allowance": "Unlimited data",
+          "talk": "Unlimited nationwide",
+          "texts": "Unlimited nationwide SMS/MMS",
+          "validity_days": 0,
+          "description": "5GB high-speed hotspot, then up to 600Kbps. Congestion may slow data; 480p video. Taxes/fees extra; compatible phone required. $60 before Auto Pay or loyalty discounts.",
+          "source_url": "https://www.verizon.com/plans/prepaid/"
+        },
+        {
+          "name": "Prepaid Unlimited Plus",
+          "price_cents": 7000,
+          "data_allowance": "Unlimited; 50GB premium 5G/4G LTE data",
+          "talk": "Unlimited nationwide",
+          "texts": "Unlimited nationwide SMS/MMS",
+          "validity_days": 0,
+          "description": "25GB hotspot, then 3Mbps on Ultra Wideband or 600Kbps on 5G/LTE. Lower priority after 50GB during congestion. Taxes/fees extra; compatible device required; Auto Pay/loyalty discounts excluded.",
+          "source_url": "https://www.verizon.com/plans/prepaid/"
+        }
+      ]
+    }
+  ]
+}

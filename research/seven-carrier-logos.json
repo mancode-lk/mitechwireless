@@ -1,0 +1,121 @@
+[
+  {
+    "slug": "simple-mobile",
+    "source_page": "https://support.simplemobile.com/",
+    "asset_url": "https://support.simplemobile.com/assets/simpleMobileLogo.png",
+    "extraction": "download",
+    "provenance": "Official Simple Mobile support-site logo; its bundled theme selects simpleMobileLogo.png and header component resolves it under /assets/.",
+    "artwork": "Green and white logo on its original dark-green background.",
+    "resolved_asset_url": "https://support.simplemobile.com/assets/simpleMobileLogo.png",
+    "retrieved_on": "2026-10-15",
+    "file": "assets/carriers/simple-mobile.png",
+    "bytes": 24674,
+    "sha256": "d18608fd5b95e35341c087fbb12f6e781a11948ccaa2e53ae90e1f547e13d6bd",
+    "dimensions": {
+      "width": 1920,
+      "height": 421,
+      "unit": "px"
+    },
+    "png_verified": true
+  },
+  {
+    "slug": "t-mobile",
+    "source_page": "https://www.t-mobile.com/",
+    "asset_url": "https://t-mobile.scene7.com/is/content/Tmusprod/tmo-logo-v4",
+    "extraction": "download",
+    "provenance": "Official T-Mobile Scene7 CDN; same tmo-logo-v4 asset name as the logo linked by the official homepage.",
+    "artwork": "Magenta square with white official T symbol.",
+    "page_asset_url": "https://www.t-mobile.com/content/dam/t-mobile/ntm/branding/logos/corporate/tmo-logo-v4.svg",
+    "resolved_asset_url": "https://t-mobile.scene7.com/is/content/Tmusprod/tmo-logo-v4",
+    "retrieved_on": "2026-10-15",
+    "file": "assets/carriers/t-mobile.svg",
+    "bytes": 488,
+    "sha256": "1e4e49d079d5b29916e08510b6d703c522116dfb681ff07533178f9ccc68c82b",
+    "dimensions": {
+      "width": null,
+      "height": null,
+      "viewBox": "0 0 52 52"
+    },
+    "svg_safety": {
+      "script": false,
+      "foreignObject": false,
+      "event_handlers": false,
+      "external_references": [],
+      "doctype": false,
+      "internal_references": []
+    }
+  },
+  {
+    "slug": "lyca-mobile",
+    "source_page": "https://www.lycamobile.us/en/",
+    "asset_url": "https://cms-assets.ldsvcplatform.com/IRE/s3fs-public/2023-09/home_logo.png",
+    "provenance": "Original carrier CMS image explicitly referenced as the og:image by the official Lyca Mobile USA homepage.",
+    "artwork": "Original full-color logo.",
+    "extraction": "download",
+    "resolved_asset_url": "https://cms-assets.ldsvcplatform.com/IRE/s3fs-public/2023-09/home_logo.png",
+    "file": "assets/carriers/lyca-mobile.png",
+    "dimensions": {
+      "width": 314,
+      "height": 123,
+      "unit": "px"
+    },
+    "bytes": 3103,
+    "sha256": "589e10e94e17e9d568e11d4366e4ef87535d52bc4d09141c41a7dab3aff452fb",
+    "retrieved_on": "2026-10-15",
+    "png_verified": true
+  },
+  {
+    "slug": "ultra-mobile",
+    "source_page": "https://apps.apple.com/us/app/ultra-mobile/id1463041935",
+    "asset_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f9/f6/56/f9f656d0-01fd-1421-b447-61f84b711eb6/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.png",
+    "provenance": "Official Ultra Mobile app artwork published by UVNV, Inc., served by Apple CDN. Apple lookup record identifies sellerUrl https://www.ultramobile.com and app ID 1463041935. PNG rendition of the official app artwork, downloaded without editing.",
+    "artwork": "Official logo in the carrier-published app-icon composition.",
+    "extraction": "download",
+    "provenance_api": "https://itunes.apple.com/lookup?id=1463041935&country=us",
+    "variant": "official_app_icon",
+    "notes": "Official website blocks direct retrieval. Carrier-published App Store artwork used instead of the outdated 2011 Wikimedia logo.",
+    "resolved_asset_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f9/f6/56/f9f656d0-01fd-1421-b447-61f84b711eb6/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.png",
+    "file": "assets/carriers/ultra-mobile.png",
+    "dimensions": {
+      "width": 512,
+      "height": 512,
+      "unit": "px"
+    },
+    "bytes": 163325,
+    "sha256": "ab40781020dbdb25996fc72713831ec2b9bb260ba99b6e9a3439a2ae3fa89aef",
+    "retrieved_on": "2026-10-15",
+    "png_verified": true
+  },
+  {
+    "slug": "h2o-wireless",
+    "source_page": "https://www.h2owireless.com/",
+    "asset_url": "https://s.weblec.com/h2o/final/images/h2o/logo-responsive.df77ff5388f83870c867e867c8753201.png",
+    "extraction": "download",
+    "provenance": "Carrier-served WebLEC CDN image linked as H2O Logo by the official H2O homepage.",
+    "artwork": "Blue and gray logo on transparent background.",
+    "resolved_asset_url": "https://s.weblec.com/h2o/final/images/h2o/logo-responsive.df77ff5388f83870c867e867c8753201.png",
+    "retrieved_on": "2026-10-15",
+    "file": "assets/carriers/h2o-wireless.png",
+    "bytes": 3346,
+    "sha256": "79d675885b7e6637db1cfdf39dbcfe394a17bccdec21bd65dbb909093a4ae715",
+    "dimensions": {
+      "width": 241,
+      "height": 76,
+      "unit": "px"
+    },
+    "png_verified": true
+  },
+  {
+    "slug": "att",
+    "source_page": "https://www.att.com/",
+    "extraction": "Official homepage inline SVG path verification",
+    "file": "assets/carriers/att.svg",
+    "retrieved_on": "2026-10-15",
+    "sha256": "43652d903a8e592acf08be0708cff62cf31fa261ce653089ffbc841380f3ee16",
+    "dimensions": {
+      "width": 98,
+      "height": 32
+    },
+    "provenance": "Both exact SVG path strings matched the official AT&T homepage. Existing original artwork reused unchanged."
+  }
+]
