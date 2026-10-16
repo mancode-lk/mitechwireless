@@ -1,8 +1,14 @@
 # MI Tech Wireless
 
-PHP/MySQL prepaid-refill storefront with Stripe Payment Element, manual fulfillment, and an admin console. Production: https://mitechwireless.com. Admin: https://mitechwireless.com/admin.
+PHP/MySQL prepaid-refill storefront with unpaid request checkout, an existing Stripe Payment Element integration, manual fulfillment, and an admin console. Production: https://mitechwireless.com. Admin: https://mitechwireless.com/admin.
 
 This repository includes the current website source, compiled assets, pinned PHP dependencies, database installation scripts, carrier research, and browser checks. Private configuration, live databases, credentials, uploads, and local test artifacts are excluded. Node dependencies can be installed from the included lockfile.
+
+## Developer documentation
+
+Start with the [developer guide](DEVELOPER_GUIDE.md) for architecture, local setup, configuration, routes and API contracts, checkout behavior, administration, testing, deployment, troubleshooting and the payment integration handover. The [database reference](docs/DATABASE_REFERENCE.md) documents all 11 tables and 101 columns; the [catalog reference](docs/CATALOG_REFERENCE.md) lists all 63 options with prices, allowances, eligibility and sources.
+
+The current request flow saves name, email, phone and the selected top-up, then displays a browser-only card form and thank-you page. It does not charge a card or perform a recharge. The guide explains the separate Stripe implementation and the work required before enabling actual payments.
 
 ## Files
 
